@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TPS613222ADBVR-corelib-chargemod-hw-rescue
+#
+DEF TPS613222ADBVR-corelib-chargemod-hw-rescue U 0 40 Y Y 1 F N
+F0 "U" 50 -150 50 H V C CNN
+F1 "TPS613222ADBVR-corelib-chargemod-hw-rescue" -50 400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 300 200 -100 0 1 0 f
+X SW 1 -350 200 100 R 50 50 1 1 P
+X GND 2 -50 -200 100 U 50 50 1 1 P
+X VOUT 4 300 200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# tp4056_TP4056-Prototype_3-cache-chargemod-hw-rescue
+#
+DEF tp4056_TP4056-Prototype_3-cache-chargemod-hw-rescue U 0 40 Y Y 1 F N
+F0 "U" -350 400 60 H V L CNN
+F1 "tp4056_TP4056-Prototype_3-cache-chargemod-hw-rescue" 350 400 60 H V R CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -350 350 350 -250 0 1 0 N
+X TEMP 1 500 -50 150 L 30 50 1 1 P
+X PROG 2 500 -150 150 L 30 50 1 1 P
+X GND 3 0 -400 150 U 30 50 1 1 W
+X VCC 4 -500 250 150 R 30 50 1 1 W
+X BAT 5 500 250 150 L 30 50 1 1 w
+X ~STDBY 6 -500 -150 150 R 30 50 1 1 C
+X ~CHRG 7 -500 -50 150 R 30 50 1 1 C
+X CE 8 -500 150 150 R 30 50 1 1 I
+X PP 9 -500 50 150 R 39 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
